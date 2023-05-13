@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ReotroFit</string>
+    <string name="mensaje_1">Se seleccionó Profesores</string>
+    <string name="mensaje_2">Se seleccionó Alumnos</string>
+    <string name="mensaje_3">Se seleccionó el menu</string>
+</resources>
