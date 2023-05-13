@@ -35,7 +35,7 @@ class Login : AppCompatActivity() {
                     .createUserWithEmailAndPassword(etEmail.text.toString(), etPass.text.toString())
                     .addOnCompleteListener {
                         if (it.isSuccessful) {
-                            val profesorIntent = Intent(this, ProfesorActivity::class.java)
+                            val profesorIntent = Intent(this, MenuPrinciapalActivity::class.java)
                             startActivity(profesorIntent)
 
                         } else {
@@ -51,7 +51,7 @@ class Login : AppCompatActivity() {
                     .signInWithEmailAndPassword(etEmail.text.toString(), etPass.text.toString())
                     .addOnCompleteListener {
                         if (it.isSuccessful) {
-                            val profesorIntent = Intent(this, ProfesorActivity::class.java)
+                            val profesorIntent = Intent(this, MenuPrinciapalActivity::class.java)
                             startActivity(profesorIntent)
 
                         } else {
